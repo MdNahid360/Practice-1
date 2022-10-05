@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="bg-clr2">
+    <div class="home-page hm d-flex align-items-start ">
+        <div class="side-bar d-none" id="">
+            <div class="mdf-container">
+                <a href="../index.html" class="navbar-brand">
+                    <img src="../img/logo.png" alt="" class="img-fluid logo-lg">
+                </a>
+                <hr>
+                <ul class="navbar-nav">
+                    <li class="s-item ">
+                        <a href="./home.html" class="s-link text-dark">
+                            <i class="uil uil-dashboard s-icn"></i><span class="ml-2">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="s-item mt-2">
+                        <a href="./employee.html" class="s-link  text-dark">
+                            <i class="uil uil-users-alt s-icn"></i> <span class="ml-2">Employees</span>
+                        </a>
+                    </li>
+                    <li class="s-item mt-2 ">
+                        <a href="project.html" class="s-link text-dark">
+                            <i class="uil uil-file-shield-alt s-icn"></i> <span class="ml-2">Project</span>
+                        </a>
+                    </li>
+                    <li class="s-item mt-2 s-active">
+                        <a href="team.html" class="s-link text-white s-text">
+                            <i class="uil uil-user-arrows s-icn"></i> <span class="ml-2">Team</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="b-box nv w-100">
+            <nav class="navbar a-nav w-100 navbar-expand-lg navbar-light ">
+                <div class="n-mdf-container d-flex w-100">
+                    <!-- <button onclick="menu()" class="btn menu-btn btn-light">
+                        <i class="uil uil-list-ul"></i>
+                    </button> -->
+                    <a href="../index.html" id="logoMd" class="navbar-brand  ml-2">
+                        <img src="../img/logo.png" alt="" class="img-fluid logo-md">
+                    </a>
+
+                    <div class="collapse navbar-collapse  mr-auto" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="home.html" class="nav-link">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="project.html" class="nav-link">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="employee.html" class="nav-link">Employee</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="team.html" class="nav-link">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../page/about.html" class="nav-link" href="#">About us</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <button id="toggleBtn" class="btn theme fa fa-sun text-warning">
+                                </button>
+                            </li>
+
+                            <li class="nav-item">
+                                 <a href="logout.html" class="btn logout-p-btn"><div class="fa fa-sign-out mr-2"></div>  Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+             <div class="container">
+             </div>
+          </div>
+          
+
+        </div>
+    <div class="container">
+        <div class="pRow d-flex">
+            <div class="cal-3">
+               <div align="center" class="profile-card">
+                  <div class="profile-img all-center" id="profilePic">
+                   
+                  </div>
+                  <h5 class="profile-name mt-3" id="fullName">Md Nahid</h5>
+                  <p class="text-m" id="dTitle"></p>
+                  <button class="btn edit-btn w-75" onclick="pEdit()">Edit Profile</button>
+
+                  <a href="#" class="btn mt-2">Delete Account</a>
+               </div>
+            </div>
+            <div class="cal-5 pt-2" id="personalInfo">
+              
+
+            </div>
+            <div class="cal-4 d-" align="center">
+                <div class="add d-none" id="add">
+                    <button class="btn p-2 h-0 w-0" onclick="closBtn()"><i class="fa fa-close"></i></button>
+                    <img src="../img/add.gif" alt="" class="img-fluid">
+                </div>
+                <div class="profile-form d-none" id="fmBox">
+                    <h5 class="text-center">Edit your profile</h5>
+                    <div class="input-group mt-4">
+                        <input type="text" placeholder="First name" class="form-control mr-2" id="firstName">
+
+                        <input type="text" placeholder="Last name" class="form-control" id="lastName">
+                    </div>
+
+                    <input type="text" placeholder="Profile picture URL" class="form-control mt-2" id="pImg">
+
+                        <input type="text" placeholder="Email" class="form-control mt-2" id="pEmail">
+
+                        <select class="form-control mt-2" id="pGender">
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Others</option>
+                        </select>
+
+                        <input type="text" placeholder="Age" class="form-control mt-2" id="pAge">
+
+                        <input type="date" placeholder="Death of birth" class="form-control mt-2" id="eDate">
+
+                        <input type="text" placeholder="Password" class="form-control mt-2" id="pPassword">
+
+                        <button onclick="setProfile()" class="btn edit-btn2 mt-2 btn-dark w-100">Edit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+                integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <script src="../js/home.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+                integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="../js/team.js"></script>
+            <script src="../js/themes.js"></script>
+            <script src="../js/profile.js"></script>
+</body>
+
+</html>
